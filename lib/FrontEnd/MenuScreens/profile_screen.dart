@@ -122,8 +122,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   },
                   closedBuilder: (context, closeWidget) {
                     return CircleAvatar(
-                      backgroundImage:
-                          ExactAssetImage('assets/images/google.png'),
+                      backgroundImage: ExactAssetImage('images/DSC01392.png'),
                       backgroundColor: const Color.fromRGBO(34, 48, 60, 1),
                       radius: MediaQuery.of(context).orientation ==
                               Orientation.portrait
