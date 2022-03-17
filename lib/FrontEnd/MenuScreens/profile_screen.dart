@@ -434,8 +434,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               });
                             }
                             print("Deletion Event");
-
-                            /// await deleteMyGenerationAccount();
                           },
                         ),
                       ],
