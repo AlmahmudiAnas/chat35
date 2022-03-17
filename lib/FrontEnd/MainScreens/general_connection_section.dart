@@ -31,7 +31,7 @@ class _GeneralMessagingSectionState extends State<GeneralMessagingSection> {
               rotateMode: RotateMode.allRotate,
               centerWidget: Center(
                 child: Text(
-                  "G",
+                  "A",
                   style: TextStyle(
                     color: Colors.lightBlue,
                     fontSize: 65.0,
