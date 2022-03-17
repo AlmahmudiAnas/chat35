@@ -21,7 +21,7 @@ class ChatAndActivityScreen extends StatefulWidget {
 
 class _ChatAndActivityScreenState extends State<ChatAndActivityScreen> {
   bool _isLoading = false;
-  final List<String> _allUserConnectionActivity = ['Generation', 'Samarpan'];
+  final List<String> _allUserConnectionActivity = ['Anas', 'Aiman', 'Jaber'];
   final List<String> _allConnectionsUserName = [];
 
   final CloudStoreDataManagement _cloudStoreDataManagement =
@@ -266,7 +266,7 @@ class _ChatAndActivityScreenState extends State<ChatAndActivityScreen> {
               top: 7.0,
             ),
             child: Text(
-              'Generation',
+              'Hello',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 12.0,

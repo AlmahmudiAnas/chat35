@@ -14,12 +14,9 @@ class _LogsCollectionState extends State<LogsCollection> {
   bool _isLoading = false;
 
   final List<String> _callingConnection = [
-    'Samarpan',
-    'Generation',
-    'Paulomi',
-    'Amitava',
-    'Youtube',
-    'Sathi'
+    'Jaber',
+    'Aiman',
+    'Anas',
   ];
 
   @override
@@ -57,7 +54,7 @@ class _LogsCollectionState extends State<LogsCollection> {
           CircleAvatar(
             radius: 30.0,
             backgroundColor: const Color.fromRGBO(34, 48, 60, 1),
-            backgroundImage: ExactAssetImage('assets/images/google.png'),
+            backgroundImage: ExactAssetImage('images/google.png'),
             //getProperImageProviderForConnectionsCollection(
             //    _userName),
           ),

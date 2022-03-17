@@ -82,12 +82,12 @@ class _LogInScreenState extends State<LogInScreen> {
                     ),
                   ),
                 ),
-                Center(
-                  child: Text(
-                    'Or Continue With',
-                    style: TextStyle(color: Colors.white, fontSize: 20.0),
-                  ),
-                ),
+                // Center(
+                //   child: Text(
+                //     'Or Continue With',
+                //     style: TextStyle(color: Colors.white, fontSize: 20.0),
+                //   ),
+                // ),
                 //logInSocialMediaIntegrationButtons(),
                 switchAnotherAuthScreen(
                     context, "Don't Have an Account? ", 'Sign-Up'),
